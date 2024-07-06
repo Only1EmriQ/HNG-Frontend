@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+            
+            </div>
+            <ul class="nav-links">
+            
+                <li><a href="#about">About</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#links">Links</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="time">
+            <h2>Live Time and Day</h2>
+            <p>Time (UTC): <span data-testid="currentTimeUTC"></span></p>
+            <p>Day: <span data-testid="currentDay"></span></p>
+        </section>
+       <br>
+        <section id="profile">
+            <h2>Profile</h2>
+            <p data-testid="slackDisplayName">Emerick Sam</p>
+            <p data-testid="slackEmail">Only1emriq@gmail.com</p>
+            <img data-testid="slackProfilePicture" src="./images/profile img.jpeg" alt="Slack Profile Picture" width="200"
+                height="200">
+        </section>
+<section id="about">
+    <h2>About Me</h2>
+    <p>My name is [Your Name], and I am passionate about technology and software development. Over the next two
+        years, I plan to achieve several goals in the tech field, including learning advanced JavaScript,
+        contributing to open-source projects, and launching a personal project.</p>
+</section>
+
+        <section id="goals">
+            <h1>My Tech Goals</h1>
+            <p>My goals in the tech field for the next 2 years are:</p>
+            <ul>
+                <li>Learn advanced JavaScript and frameworks like React and Node.js.</li>
+                <li>Contribute to open-source projects.</li>
+                <li>Build and launch a personal project.</li>
+                <li>Improve my problem-solving skills by practicing competitive programming.</li>
+            </ul>
+        </section>
+        <section id="links" class="links">
+            <h2>Useful Links</h2>
+            <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+            <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+            <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
